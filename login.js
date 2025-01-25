@@ -40,7 +40,7 @@ btn.addEventListener("click",(e)=>{
 })
 
 
-
+//                            <!-- google btn -->
 
 
 googlebtn.addEventListener("click",()=>{
@@ -56,13 +56,13 @@ googlebtn.addEventListener("click",()=>{
     const user = result.user;
     console.log(user);
     // alert("Sucess Full")
+    console.log("googlebtn");
+    
     window.location ="index.html"
     
 
 
 }).catch((error) => {
-    // Handle Errors here.
-    const errorCode = error.code;
     const errorMessage = error.message;
     alert(errorMessage)
 });
