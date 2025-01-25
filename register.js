@@ -22,7 +22,7 @@ btn.addEventListener("click",(e)=>{
         // Signed up 
         const user = userCredential.user;
         console.log(user);
-        // alert("sucessfull")
+        alert("sucessfull")
         
         // ...
     })

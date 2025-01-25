@@ -55,7 +55,7 @@ googlebtn.addEventListener("click",()=>{
 
     const user = result.user;
     console.log(user);
-    // alert("Sucess Full")
+    alert("Sucess Full")
     console.log("googlebtn");
     
     window.location ="index.html"
